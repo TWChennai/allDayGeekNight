@@ -1,6 +1,6 @@
-# Geek Day Chennai
+# Geek Night Chennai
 
-An all day event for geeks to connect, discuss &amp; Hands on workshop
+An open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
 
 ## Quick Start
 

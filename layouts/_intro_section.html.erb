@@ -1,0 +1,36 @@
+<section id="intro" class="intro">
+    <div class="banner">
+        <div class="banner-overlay">
+            <div class="mask"><div class="blur"></div></div>
+            <div class="intro-info  vertical-center">
+                <div class="intro-info-place">
+                    <div class="intro-info-place-title">ALL DAY GEEK NIGHT</div>
+                    <div class="line"></div>
+                </div>
+                <div class="intro-info-date">
+                    <%= start_date.strftime("%b").upcase %><%= start_date.strftime(" %-d") %><sup><%= start_date.strftime("%-d").to_i.ordinal %></sup><%= start_date.strftime(", %Y") %>
+                </div>
+                <% if @item[:subheader] %>
+                    <h5 class="subheader"><%= @item[:subheader] %></h5>
+                <% end %>
+                <div class="intro-info-buttons">
+                    <div class="intro-info-buttons-button">
+                        <% if item[:register] %>
+                            <a href="<%= @item[:register] %>" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'register', 'register')">
+                            <div class="intro-info-buttons-button-text">REGISTER</div>
+                            </a>
+                        <% else %>
+                            <div class="intro-info-buttons-button-text"><strike>REGISTER</strike></div>
+                            <% if start_date.future? %>
+                                <div class="intro-info-buttons-button-sub-text">Registrations not yet open</div>
+                            <% else %>
+                                <div class="intro-info-buttons-button-sub-text">Sorry! registrations closed</div>
+                            <% end %>
+                        <% end %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
