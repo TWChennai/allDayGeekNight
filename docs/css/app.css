@@ -189,6 +189,16 @@ html {
     text-transform: uppercase; }
 .agenda .content {
   margin: 0 0 50px 0; }
+  .agenda .content .workshop {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    justify-content: center; }
+    .agenda .content .workshop-details {
+      display: block;
+      flex: 0 1 25%; }
+    .agenda .content .workshop-time {
+      flex: 0 1 10% !important; }
   .agenda .content .speakers {
     margin: 0px auto;
     min-width: 768px;
