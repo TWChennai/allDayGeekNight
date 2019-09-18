@@ -4,10 +4,9 @@
 	flex-flow: column;
 	min-height: 500px;
 	text-align: center;
-	padding-top: 100px;
 	.banner {
 		flex: 1 1 60%;
-		background: $intro-background center center no-repeat;
+		background: $intro-background center bottom no-repeat;
 		background-size: 100%;
 
 		&-overlay {
@@ -45,6 +44,7 @@
 		right: 0;
 		bottom: 0;
 		top: 0;
+		color: $white;
 
 		&-place {
 			&-title {
@@ -86,13 +86,13 @@
 				padding: 0 20px 20px 20px;
 
 				&-text {
-					height: 60px;
+					height: 50px;
 					font-size: 24px;
 					font-weight: bold;
-					line-height: 60px;
+					line-height: 50px;
 					border-radius: 4px;
-					background-color: $nice-blue;
-					color: $white;
+					background-color: $white-90-percent-opacity;
+					color: $pink;
 				}
 
 				&-sub-text {

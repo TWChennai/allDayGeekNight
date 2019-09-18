@@ -36,7 +36,7 @@ html {
 .header {
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
-  height: 100px;
+  height: 80px;
   width: 100%;
   z-index: 999;
   padding: 0;
@@ -60,15 +60,15 @@ html {
       display: flex;
       flex: 1 1 50%; }
       .header .nav-bar .logo-section .logo {
-        background: url("../img/tw-logo-black.svg") no-repeat;
-        background-size: 140px;
+        background: url("../img/tw-logo-black.svg") no-repeat center center;
+        background-size: 100%;
         height: 65px;
         width: 160px;
         margin-left: 5px; }
     .header .nav-bar .menu {
       display: flex;
       align-items: center;
-      flex: 1 1 40%; }
+      flex: 1 1 15%; }
       .header .nav-bar .menu-item {
         flex: 1 1 25%; }
       .header .nav-bar .menu .active a {
@@ -83,11 +83,10 @@ html {
   display: flex;
   flex-flow: column;
   min-height: 500px;
-  text-align: center;
-  padding-top: 100px; }
+  text-align: center; }
   .intro .banner {
     flex: 1 1 60%;
-    background: url("../img/banner.png") center center no-repeat;
+    background: url("../img/banner.jpg") center bottom no-repeat;
     background-size: 100%; }
     .intro .banner-overlay {
       margin: auto;
@@ -118,7 +117,8 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0; }
+    top: 0;
+    color: #fff; }
     .intro-info-place-title {
       font-size: 33px;
       font-weight: 800;
@@ -147,13 +147,13 @@ html {
         cursor: pointer;
         padding: 0 20px 20px 20px; }
         .intro-info-buttons-button-text {
-          height: 60px;
+          height: 50px;
           font-size: 24px;
           font-weight: bold;
-          line-height: 60px;
+          line-height: 50px;
           border-radius: 4px;
-          background-color: #1a73ba;
-          color: #fff; }
+          background-color: rgba(255, 255, 255, 0.9);
+          color: #ef5ba1; }
         .intro-info-buttons-button-sub-text {
           color: #000;
           font-style: italic;
@@ -281,14 +281,14 @@ html {
         background-size: 50px;
         background-position: 30px 20px; }
   .location .location-heading {
-    background-color: #dfdfdf;
+    background-color: #6a2569;
     height: 90px;
     line-height: 90px;
     text-align: center; }
     .location .location-heading-text {
       font-size: 36px;
       font-weight: 800;
-      color: #000;
+      color: #fff;
       text-transform: uppercase; }
 
 .archive-heading {
@@ -472,31 +472,27 @@ html {
     .archive .previous-editions .content .speakers.active {
       display: block; }
 
-#about {
-  margin-top: 40px;
-  background-color: #dfdfdf; }
-  #about p {
-    padding: 20px 0;
-    margin: 0; }
-    #about p:last-child {
-      padding-bottom: 50px; }
-  #about .about-heading {
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    background-color: #dfdfdf; }
-    #about .about-heading-text {
-      font-size: 36px;
-      font-weight: 800;
-      color: black;
-      text-transform: uppercase; }
-  #about .about-details {
-    font-size: 18px;
-    padding: 0 50px;
-    text-align: justify;
-    max-width: 1024px;
-    margin: auto;
-    background-color: #dfdfdf; }
+#about p {
+  padding: 20px 0;
+  margin: 0; }
+  #about p:last-child {
+    padding-bottom: 50px; }
+#about .about-heading {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  background-color: #6a2569; }
+  #about .about-heading-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase; }
+#about .about-details {
+  font-size: 18px;
+  padding: 0 50px;
+  text-align: justify;
+  max-width: 1024px;
+  margin: auto; }
 
 .footer {
   background: #000;
