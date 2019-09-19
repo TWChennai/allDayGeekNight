@@ -199,12 +199,24 @@ html {
     display: flex;
     flex-flow: row nowrap;
     width: 90%;
-    justify-content: center; }
+    justify-content: space-around;
+    line-height: 1.5; }
     .agenda .content .workshop-details {
       display: block;
       flex: 0 1 25%; }
     .agenda .content .workshop-time {
       flex: 0 1 10% !important; }
+    .agenda .content .workshop .speaker-info {
+      display: inline-block; }
+    .agenda .content .workshop .name {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 5px; }
+      .agenda .content .workshop .name img {
+        height: 40px;
+        padding-right: 5px; }
   .agenda .content .speakers {
     margin: 0px auto;
     min-width: 768px;
@@ -221,10 +233,10 @@ html {
       padding: 10px 0; }
       .agenda .content .speakers .speaker-details .time {
         flex: 1 1 10%;
-        align-self: flex-start;
         padding-top: 5px;
         font-weight: 800;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        align-self: center; }
       .agenda .content .speakers .speaker-details .speaker-detail {
         flex: 1 1 85%; }
         .agenda .content .speakers .speaker-details .speaker-detail .img {
