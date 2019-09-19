@@ -86,7 +86,7 @@ html {
   text-align: center; }
   .intro .banner {
     flex: 1 1 60%;
-    background: url("../img/banner.jpg") center bottom no-repeat;
+    background: url("../img/allDayBanner.png") center bottom no-repeat;
     background-size: 100%; }
     .intro .banner-overlay {
       margin: auto;
@@ -174,7 +174,7 @@ html {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 85%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
