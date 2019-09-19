@@ -203,7 +203,8 @@ html {
     line-height: 1.5; }
     .agenda .content .workshop-details {
       display: block;
-      flex: 0 1 25%; }
+      flex: 0 1 25%;
+      padding: 10px; }
     .agenda .content .workshop-time {
       flex: 0 1 10% !important; }
     .agenda .content .workshop .speaker-info {
