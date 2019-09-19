@@ -84,6 +84,9 @@ html {
   flex-flow: column;
   min-height: 500px;
   text-align: center; }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .intro {
+      min-height: 365px; } }
   .intro .banner {
     flex: 1 1 60%;
     background: url("../img/allDayBanner.png") center bottom no-repeat;
@@ -131,7 +134,7 @@ html {
       .intro-info-edition sup {
         font-size: 14px; }
     .intro-info-date {
-      font-size: 24px;
+      font-size: 30px;
       font-weight: bold;
       padding-bottom: 20px; }
       .intro-info-date sup {
@@ -174,9 +177,12 @@ html {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 85%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  -ms-transform: translate(-35px, 65%);
+  transform: translate(-35px, 65%); }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .vertical-center {
+      -ms-transform: translate(-35px, 55%);
+      transform: translate(-35px, 55%); } }
 
 .agenda-heading {
   height: 90px;
