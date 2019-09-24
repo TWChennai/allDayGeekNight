@@ -278,7 +278,10 @@ html {
           justify-content: flex-start; }
           .agenda .content .speakers .speaker-details .speaker-detail .name .speaker-description, .agenda .content .speakers .speaker-details .workshop-detail .name .speaker-description {
             font-size: 12px;
-            font-weight: normal; }
+            font-weight: normal;
+            padding-top: 5px; }
+          .agenda .content .speakers .speaker-details .speaker-detail .name .profile, .agenda .content .speakers .speaker-details .workshop-detail .name .profile {
+            width: 95%; }
 
 .location {
   position: relative;
