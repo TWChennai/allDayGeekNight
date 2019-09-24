@@ -90,7 +90,8 @@ html {
   .intro .banner {
     flex: 1 1 60%;
     background: url("../img/allDayBanner.png") center bottom no-repeat;
-    background-size: 100%; }
+    background-size: 100%;
+    margin-top: 80px; }
     .intro .banner-overlay {
       margin: auto;
       height: 360px;
@@ -198,15 +199,15 @@ html {
   .agenda .content .workshop {
     display: flex;
     flex-flow: row nowrap;
-    width: 90%;
+    width: 80%;
     justify-content: space-around;
     line-height: 1.5; }
     .agenda .content .workshop-details {
       display: block;
-      flex: 0 1 25%;
-      padding: 10px; }
+      flex: 0 1 50%;
+      padding-right: 30px; }
     .agenda .content .workshop-time {
-      flex: 0 1 10% !important; }
+      flex: 0 1 20% !important; }
     .agenda .content .workshop .speaker-info {
       display: inline-block; }
     .agenda .content .workshop .name {
@@ -214,14 +215,20 @@ html {
       flex-flow: row nowrap;
       justify-content: flex-start;
       align-items: center;
-      padding-top: 5px; }
+      padding-top: 15px; }
+      .agenda .content .workshop .name .profile {
+        display: table-column; }
+        .agenda .content .workshop .name .profile img {
+          vertical-align: top; }
+        .agenda .content .workshop .name .profile .speaker-info {
+          width: 80%; }
       .agenda .content .workshop .name img {
         height: 40px;
         padding-right: 5px; }
   .agenda .content .speakers {
     margin: 0px auto;
-    min-width: 768px;
-    width: 768px; }
+    min-width: 1024px;
+    width: 1024px; }
     .agenda .content .speakers:first-child {
       border-top: none; }
     .agenda .content .speakers:last-child {
@@ -233,42 +240,41 @@ html {
       border-top: 1px solid #000;
       padding: 10px 0; }
       .agenda .content .speakers .speaker-details .time {
-        flex: 1 1 10%;
+        flex: 1 1 20%;
         padding-top: 5px;
         font-weight: 800;
         text-transform: uppercase;
         align-self: center; }
-      .agenda .content .speakers .speaker-details .speaker-detail {
-        flex: 1 1 85%; }
-        .agenda .content .speakers .speaker-details .speaker-detail .img {
+      .agenda .content .speakers .speaker-details .speaker-detail, .agenda .content .speakers .speaker-details .workshop-detail {
+        flex: 1 1 80%; }
+        .agenda .content .speakers .speaker-details .speaker-detail .img, .agenda .content .speakers .speaker-details .workshop-detail .img {
           border-radius: 32px;
           width: 40px;
           height: 40px;
           margin: 5px 5px 5px 0; }
-        .agenda .content .speakers .speaker-details .speaker-detail .title {
+        .agenda .content .speakers .speaker-details .speaker-detail .title, .agenda .content .speakers .speaker-details .workshop-detail .title {
           color: #ef5ba1;
           font-size: 20px;
           font-weight: bold;
           display: block; }
-        .agenda .content .speakers .speaker-details .speaker-detail .title-default {
+        .agenda .content .speakers .speaker-details .speaker-detail .title-default, .agenda .content .speakers .speaker-details .workshop-detail .title-default {
           color: #000;
           font-size: 20px;
           font-weight: bold; }
-        .agenda .content .speakers .speaker-details .speaker-detail .subtitle {
+        .agenda .content .speakers .speaker-details .speaker-detail .subtitle, .agenda .content .speakers .speaker-details .workshop-detail .subtitle {
           display: block;
           color: #4a4a4a;
           font-size: 15px;
           font-style: italic;
           text-align: justify;
           padding: 0 0 10px 0; }
-        .agenda .content .speakers .speaker-details .speaker-detail .name {
-          color: #ef5ba1;
+        .agenda .content .speakers .speaker-details .speaker-detail .name, .agenda .content .speakers .speaker-details .workshop-detail .name {
           font-size: 15px;
           font-weight: bold;
           display: flex;
           align-items: center;
           justify-content: flex-start; }
-          .agenda .content .speakers .speaker-details .speaker-detail .name .speaker-description {
+          .agenda .content .speakers .speaker-details .speaker-detail .name .speaker-description, .agenda .content .speakers .speaker-details .workshop-detail .name .speaker-description {
             font-size: 12px;
             font-weight: normal; }
 
