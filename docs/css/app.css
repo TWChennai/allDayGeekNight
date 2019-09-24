@@ -141,7 +141,7 @@ html {
       .intro-info-date sup {
         font-size: 18px; }
     .intro-info-buttons {
-      display: flex;
+      dixlay: flex;
       flex-flow: row nowrap;
       justify-content: center; }
       .intro-info-buttons-button {
@@ -238,7 +238,7 @@ html {
       flex-flow: row wrap;
       align-items: center;
       border-top: 1px solid #000;
-      padding: 10px 0; }
+      padding: 20px 0; }
       .agenda .content .speakers .speaker-details .time {
         flex: 1 1 20%;
         padding-top: 5px;
