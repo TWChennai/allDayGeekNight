@@ -64,19 +64,11 @@
 			min-width: 1024px;
 			width: 1024px;
 
-			&:first-child {
-				border-top: none;
-			}
-
-			&:last-child {
-				border-bottom: 1px solid $black;
-			}
-
 			.speaker-details {
 				display: flex;
 				flex-flow: row wrap;
 				align-items: center;
-				border-top: 1px solid $black;
+				border-bottom: 1px solid $black;
 				padding: 20px 30px;
 
 				.time {
