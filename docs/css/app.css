@@ -265,7 +265,8 @@ html {
           font-size: 15px;
           font-style: italic;
           text-align: justify;
-          padding: 0 0 10px 0; }
+          padding: 0 0 10px 0;
+          line-height: 1.5; }
         .agenda .content .speakers .speaker-details .speaker-detail .name, .agenda .content .speakers .speaker-details .workshop-detail .name {
           font-size: 15px;
           font-weight: bold;
@@ -276,7 +277,8 @@ html {
             font-size: 12px;
             font-weight: normal;
             padding-top: 5px;
-            text-align: justify; }
+            text-align: justify;
+            line-height: 1.5; }
           .agenda .content .speakers .speaker-details .speaker-detail .name .profile, .agenda .content .speakers .speaker-details .workshop-detail .name .profile {
             width: 95%; }
 
