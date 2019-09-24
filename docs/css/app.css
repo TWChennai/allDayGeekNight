@@ -141,7 +141,7 @@ html {
       .intro-info-date sup {
         font-size: 18px; }
     .intro-info-buttons {
-      dixlay: flex;
+      display: flex;
       flex-flow: row nowrap;
       justify-content: center; }
       .intro-info-buttons-button {
