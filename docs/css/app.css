@@ -188,12 +188,14 @@ html {
 .agenda-heading {
   height: 90px;
   line-height: 90px;
-  text-align: center; }
+  text-align: center;
+  background-color: #6a2569; }
   .agenda-heading-text {
     font-size: 36px;
     font-weight: 800;
     color: #000;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #fff; }
 .agenda .content {
   margin: 0 0 50px 0; }
   .agenda .content .workshop {
