@@ -275,7 +275,8 @@ html {
           .agenda .content .speakers .speaker-details .speaker-detail .name .speaker-description, .agenda .content .speakers .speaker-details .workshop-detail .name .speaker-description {
             font-size: 12px;
             font-weight: normal;
-            padding-top: 5px; }
+            padding-top: 5px;
+            text-align: justify; }
           .agenda .content .speakers .speaker-details .speaker-detail .name .profile, .agenda .content .speakers .speaker-details .workshop-detail .name .profile {
             width: 95%; }
 
