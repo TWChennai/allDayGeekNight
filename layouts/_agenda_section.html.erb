@@ -120,8 +120,16 @@
                       </small></p>
                   <% end %>
                 </div>
+                <% if agenda[:register] %>
+                    <a href="<%= agenda[:register] %>" target="_blank" rel="nofollow"
+                  onclick="ga('send', 'event', 'register', 'register')">
+                    <div class="button">REGISTER</div>
+                    </a>
+                <% else %>
+                    <div class="button"><strike>REGISTER</strike></div>
+                <% end %>
               </div>
-              <% end %>
+            <% end %>
               </div>
             </div>
       </div>

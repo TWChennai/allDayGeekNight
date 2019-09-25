@@ -226,6 +226,15 @@ html {
       .agenda .content .workshop .name img {
         height: 40px;
         padding-right: 5px; }
+    .agenda .content .workshop .button {
+      display: flex;
+      justify-content: center;
+      border-radius: 4px;
+      border: 1px solid #ef5ba1;
+      width: 130px;
+      cursor: pointer;
+      padding: 10px;
+      margin: 20px auto; }
   .agenda .content .speakers {
     margin: 0px auto;
     min-width: 1024px;

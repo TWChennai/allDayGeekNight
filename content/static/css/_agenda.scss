@@ -58,6 +58,16 @@
 					padding-right: 5px;
 				}
 			}
+			.button {
+				display: flex;
+				justify-content: center;
+				border-radius: 4px;
+				border: 1px solid $pink;
+				width: 130px;
+				cursor: pointer;
+				padding: 10px;
+				margin: 20px auto;
+			}
 		}			
 		.speakers {
 			margin: 0px auto;
